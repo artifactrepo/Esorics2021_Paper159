@@ -2,12 +2,12 @@
 
 prefix=/usr
 exec_prefix=${prefix}
-libdir=${prefix}/lib/x86_64-linux-gnu
+libdir=${prefix}/lib
 includedir=${prefix}/include
 
 Name: libargon2
 Description: Development libraries for libargon2
 Version: ZERO
-Libs: -L${libdir} -largon2 -lrt -ldl
+Libs: -L${libdir} -largon2 
 Cflags: -I${includedir}
 URL: https://github.com/P-H-C/phc-winner-argon2

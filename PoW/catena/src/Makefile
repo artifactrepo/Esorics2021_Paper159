@@ -1,7 +1,7 @@
 CC=clang
 TARGETDIR=../
 
-CFLAGS=-fomit-frame-pointer -O3 -std=c99 -fgnu89-inline -march=native -s -W -Wall
+CFLAGS=-fomit-frame-pointer -O3 -std=c99 -fgnu89-inline -mcpu=apple-m1 -s -W -Wall
 
 #Silence the warnings from blake2b
 CFLAGS+= -Wno-unused-function -Wno-unused-const-variable

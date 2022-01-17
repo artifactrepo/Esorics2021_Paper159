@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 #include <string.h>
-#include <endian.h>
+#include <machine/endian.h>
 
 /* The default unit for all length values are bytes */
 
